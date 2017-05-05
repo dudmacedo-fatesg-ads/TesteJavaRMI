@@ -9,7 +9,7 @@ import java.rmi.registry.Registry;
  */
 public class Servidor {
 
-    public static void main(String argv[]) {
+    public static void main(String[] args) {
         try {
             Registry r = LocateRegistry.createRegistry(1234);
             
